@@ -37,6 +37,8 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Center(child: Image.asset(  "assets/images/flutter.png", height: 100, width: 100,)),
+                  SizedBox(height: 20,),
                   Text("Welcome to Flutter", style: TextStyle(fontSize: 24, color: Colors.white, fontWeight: FontWeight.bold),),
                   SizedBox(height: 20,),
                   ElevatedButton(onPressed: () { }, child: Text("Get Started"), ),
