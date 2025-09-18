@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // backgroundColor: Colors.yellow,
         appBar: AppBar(
-          title: const Text("Flutter demo app"),
+          title: const Text("Weather App"),
           centerTitle: true,
           backgroundColor: Colors.purple,
         ),
