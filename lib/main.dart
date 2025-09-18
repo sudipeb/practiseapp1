@@ -18,14 +18,15 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // backgroundColor: Colors.yellow,
         appBar: AppBar(
+          leading: IconButton(icon: Icon(Icons.arrow_back), onPressed: () { },),
           title: const Text("Weather App"),
           centerTitle: true,
           backgroundColor: Colors.purple,
-        ),
+          actions: [IconButton(icon: Icon(Icons.settings), onPressed: () { },),
+        ]),
         body: SafeArea(
           child: const Center(
             child: Text("Hello World", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.red) ),
-            
           ),
         ),
       ),
