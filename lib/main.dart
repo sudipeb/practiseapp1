@@ -1,4 +1,4 @@
-import 'package:auto_route/auto_route.dart';
+
 import 'package:demoapp/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
